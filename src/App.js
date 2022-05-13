@@ -5,6 +5,7 @@ import Heading from './components/Heading'
 import Paragraph from './components/Paragraph'
 import Inputs from './components/Inputs'
 import Button from './components/Button'
+import PricingSection from './components/PricingSection'
 
 import './App.css';
 
@@ -51,10 +52,10 @@ function App() {
         <div className='col-lg-12 pb-4' style={{textAlign: 'center'}}>
           <div className='row'>
             <div className='col-lg-4 offset-lg-2'>
-              <Inputs type={'email'} inputName={'email'} id={'email'} placeholder={'Your Email address.'} /> 
+              <Inputs type={'email'} inputName={'email'} id={'email'} placeholder={'Your Email Address.'} /> 
             </div>
             <div className='col-lg-4'>
-              <Inputs type={'number'} inputName={'mobile'} id={'mobile'} placeholder={'Your Mobile NUmber'} />
+              <Inputs type={'number'} inputName={'mobile'} id={'mobile'} placeholder={'Your Mobile Number'} />
             </div>
             <div className='col-lg-12 pt-4' style={{textAlign: 'center'}}>
               <Button title={'GET QUOTE'} styleType={'btn-light'} />
@@ -62,6 +63,8 @@ function App() {
           </div>
         </div>
       </div>
+
+      <PricingSection />      
 
       <div className='row p-0'>
         <div className='col-lg-12'>

@@ -19,7 +19,7 @@ const PricingSection = () => {
     <>
         <div className='row p-0 m-0 mt-5 mb-5'>
             <div className='col-lg-12'>
-              <Heading title={'Pricing'} type={'1'} style={{ textAlign: 'center' }} />
+              <Heading title={'Pricing'} type={1} style={{ textAlign: 'center' }} />
             </div>
             <div className='col-lg-3 offset-lg-1' style={{ marginLeft : 190 }}>
               <Pricing heading={'Free'} price={0} description={pricingDes} buttonTitle={'Sign Up For Free'} buttonStyleType={'btn-lg btn-block btn-outline-primary'}  />

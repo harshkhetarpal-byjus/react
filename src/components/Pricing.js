@@ -21,7 +21,6 @@ const Pricing = ({heading, price, description, buttonTitle, buttonStyleType}) =>
                     }
                 </ul>
                 <Button title={buttonTitle} styleType={buttonStyleType} />
-                {/* <button type="button" className="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> */}
             </div>
         </div>
     </>
